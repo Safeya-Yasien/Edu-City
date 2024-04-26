@@ -1,0 +1,82 @@
+body {
+  height: 6000px;
+}
+
+.landing-other-pages {
+  background-image: url("../imgs/about.jpg");
+}
+
+.landing-other-pages .text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.landing-other-pages .text h2 {
+  font-size: 50px;
+  color: var(--white-color);
+}
+
+.landing-other-pages .text a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.landing-other-pages .text a span {
+  margin: 0 8px;
+}
+
+.landing-other-pages .text a p {
+  margin-bottom: 0;
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+/* awesome features */
+
+.awesome-features {
+  padding-top: 100px;
+}
+
+.awesome-features {
+}
+
+.awesome-features .single-feature {
+}
+
+.awesome-features .single-feature h2 {
+  color: var(--dark-blue);
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.awesome-features .single-feature p {
+}
+
+.awesome-features .single-feature {
+}
+
+.awesome-features {
+}
+
+.awesome-features {
+}
+
+.awesome-features {
+}
+
+.awesome-features {
+}
+
+.awesome-features {
+}
+
+.awesome-features {
+}
+
+.awesome-features {
+}
