@@ -1,0 +1,112 @@
+/* contact us form */
+.contact-us {
+  padding: 80px 0;
+}
+
+.contact-us .title {
+  text-align: center;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.contact-us .title::after {
+  content: "";
+  position: absolute;
+  background-color: var(--main-color);
+  width: 50px;
+  height: 3px;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.contact-us .title p {
+  color: #556172;
+}
+
+.contact-us .row .contact-container {
+  padding: 20px;
+}
+
+.contact-us .form-group {
+  margin-bottom: 30px;
+}
+
+.contact-us .form-group .form-control {
+  height: 50px;
+  font-size: 14px;
+}
+
+.contact-us .form-group textarea {
+  height: 200px !important;
+}
+
+.contact-us .form-group .form-control:active,
+.contact-us .form-group .form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: var(--main-color);
+}
+
+.contact-us .form-group .send-button {
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  border: 1px solid var(--main-color);
+  background-color: var(--white-color);
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  transition: var(--main-transition);
+}
+.contact-us .form-group .send-button:hover {
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
+
+.contact-us .sub-title {
+  margin-bottom: 50px;
+}
+
+.contact-us .sub-title h3 {
+  font-size: 22px;
+}
+
+.contact-us .part-two {
+  background-color: #d8a488;
+  border-radius: 20px;
+}
+
+.contact-us .contact-info .media {
+  display: flex;
+  align-items: center;
+}
+
+.contact-us .contact-info .media:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.contact-us .contact-info .media .icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2c9a0;
+  margin-right: 20px;
+}
+
+.contact-us .contact-info .media .icon svg {
+  color: var(--main-color);
+}
+
+.contact-us .contact-info .media .info p {
+  margin-bottom: 0;
+}
+
+.contact-us .contact-info .media .info p span {
+  color: var(--dark-blue);
+  font-weight: bold;
+}

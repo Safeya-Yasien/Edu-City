@@ -18,3 +18,4 @@ menuCloseBtn.addEventListener("click", displayMenuBar);
 function displayMenuBar() {
   menuBar.classList.toggle("active");
 }
+

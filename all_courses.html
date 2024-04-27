@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/all_courses.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <title>Education City</title>
+  </head>
+  <body>
+    <div class="page">
+      <div class="header">
+        <div class="top-bar">
+          <div class="container">
+            <div class="row">
+              <div class="col-9">
+                <ul class="m-0 p-0 contact-info">
+                  <li class="d-none d-lg-block">
+                    <div class="question">
+                      <i class="fa-solid fa-question"></i>
+                      <span>have any question</span>
+                    </div>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="#">+(20) 1234567890</a>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="#"> Example@domain.com</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-3">
+                <ul class="m-0 p-0 login-register">
+                  <li>
+                    <i class="fa-solid fa-lock"></i>
+                    <a href="#">login </a>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-user"></i>
+                    <a href="#">register</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav-bar">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-4">
+                <div class="logo">
+                  <a href="#">
+                    <img src="imgs/logo.jpeg" alt="logo" />
+                  </a>
+                </div>
+              </div>
+              <div class="col-6">
+                <ul class="m-0 p-0 nav-links">
+                  <li>
+                    <a href="index.html" class="nav-link">Home</a>
+                  </li>
+                  <li>
+                    <a href="all_courses.html" class="nav-link active"
+                      >All Courses</a
+                    >
+                  </li>
+                  <li>
+                    <a href="about.html" class="nav-link">About</a>
+                  </li>
+                  <li>
+                    <a href="contact-us.html" class="nav-link">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-2">
+                <div class="icons">
+                  <div class="search-btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                  <div class="humburger-menu">
+                    <i class="fa-solid fa-bars menu"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header-search-container">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="header-search-content">
+                  <form>
+                    <input
+                      type="search"
+                      class="search-input"
+                      placeholder="Search"
+                    />
+                    <button class="header-search-button">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-bar">
+        <div class="menu-close">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="menu-nav">
+          <ul class="m-0 p-0 menu-links">
+            <li>
+              <a href="index.html" class="menu-link">Home</a>
+            </li>
+            <li>
+              <a href="all_courses.html" class="menu-link">All Courses</a>
+            </li>
+            <li>
+              <a href="about.html" class="menu-link">About</a>
+            </li>
+            <li>
+              <a href="contact-us.html" class="menu-link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="landing-page landing-other-pages">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <div class="text">
+                <h2>All Courses</h2>
+                <a href="#">
+                  Home
+                  <span>
+                    <i class="fa-solid fa-angle-right"></i>
+                  </span>
+                  <p>All Courses</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="all-courses">
+        <div class="container">
+          <div class="row">
+            <div class="col-3">
+              <div class="categories-container">
+                <div class="search">
+                  <h3>Courses Search</h3>
+                  <form>
+                    <input
+                      class="form-control"
+                      type="search"
+                      placeholder="Search"
+                    />
+                    <button onclick="()=>preventDefault">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                  </form>
+                </div>
+                <div class="categories">
+                  <h3>Course Categories</h3>
+                  <ul class="categories-list m-0 p-0">
+                    <li>
+                      <input
+                        type="checkbox"
+                        name="all"
+                        id="all"
+                        class="form-check-input"
+                      />
+                      <label class="label" for="all">All</label>
+                    </li>
+                    <li>
+                      <input
+                        type="checkbox"
+                        name="devops-engineer"
+                        id="devops-engineer"
+                        class="form-check-input"
+                      />
+                      <label class="label" for="devops-engineer"
+                        >DevOps Engineer</label
+                      >
+                    </li>
+                    <li>
+                      <input
+                        type="checkbox"
+                        name="ios-developer"
+                        id="ios-developer"
+                        class="form-check-input"
+                      />
+                      <label class="label" for="ios-developer"
+                        >iOS Developer</label
+                      >
+                    </li>
+                    <li>
+                      <input
+                        type="checkbox"
+                        name="data-engineer"
+                        id="data-engineer"
+                        class="form-check-input"
+                      />
+                      <label class="label" for="data-engineer"
+                        >Data Engineer</label
+                      >
+                    </li>
+                    <li>
+                      <input
+                        type="checkbox"
+                        name="android-developer"
+                        id="android-developer"
+                        class="form-check-input"
+                      />
+                      <label class="label" for="android-developer"
+                        >Android Developer</label
+                      >
+                    </li>
+                    <li>
+                      <input
+                        type="checkbox"
+                        name="back-end"
+                        id="back-end"
+                        class="form-check-input"
+                      />
+                      <label class="label" for="back-end">Back-End</label>
+                    </li>
+                    <li>
+                      <input
+                        type="checkbox"
+                        name="front-end"
+                        id="front-end"
+                        class="form-check-input"
+                      />
+                      <label class="label" for="front-end">Front-End</label>
+                    </li>
+                    <li>
+                      <input
+                        type="checkbox"
+                        name="data-scientist"
+                        id="data-scientist"
+                        class="form-check-input"
+                      />
+                      <label class="label" for="data-scientist"
+                        >Data Scientist</label
+                      >
+                    </li>
+                    <li>
+                      <input
+                        type="checkbox"
+                        name="data-analyst"
+                        id="data-analyst"
+                        class="form-check-input"
+                      />
+                      <label class="label" for="data-analyst"
+                        >Data Analyst</label
+                      >
+                    </li>
+                    <li>
+                      <input
+                        type="checkbox"
+                        name="ux-designer"
+                        id="ux-designer"
+                        class="form-check-input"
+                      />
+                      <label class="label" for="ux-designer">UX Designer</label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-9">
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="single_course">
+                    <img src="imgs/course.jpg" alt="course" />
+                    <div class="single-course-text">
+                      <div class="course-header">
+                        <a href="#" class="cat-btn">Web Development</a>
+                        <h4>$130.00</h4>
+                      </div>
+                      <div class="course-info">
+                        <a href="#">
+                          <h3>Web Development</h3>
+                        </a>
+                        <p>
+                          Which whose darkness saying were life unto fish
+                          wherein all fish of together called
+                        </p>
+                      </div>
+                      <div class="author-info">
+                        <div class="author-img">
+                          <img src="imgs/author.jpg" alt="author" />
+                        </div>
+                        <div class="author-text">
+                          <p>Conduct by:</p>
+                          <h5>James Well</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="single_course">
+                    <img src="imgs/course.jpg" alt="course" />
+                    <div class="single-course-text">
+                      <div class="course-header">
+                        <a href="#" class="cat-btn">Web Development</a>
+                        <h4>$130.00</h4>
+                      </div>
+                      <div class="course-info">
+                        <a href="#">
+                          <h3>Web Development</h3>
+                        </a>
+                        <p>
+                          Which whose darkness saying were life unto fish
+                          wherein all fish of together called
+                        </p>
+                      </div>
+                      <div class="author-info">
+                        <div class="author-img">
+                          <img src="imgs/author.jpg" alt="author" />
+                        </div>
+                        <div class="author-text">
+                          <p>Conduct by:</p>
+                          <h5>James Well</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="single_course">
+                    <img src="imgs/course.jpg" alt="course" />
+                    <div class="single-course-text">
+                      <div class="course-header">
+                        <a href="#" class="cat-btn">Web Development</a>
+                        <h4>$130.00</h4>
+                      </div>
+                      <div class="course-info">
+                        <a href="#">
+                          <h3>Web Development</h3>
+                        </a>
+                        <p>
+                          Which whose darkness saying were life unto fish
+                          wherein all fish of together called
+                        </p>
+                      </div>
+                      <div class="author-info">
+                        <div class="author-img">
+                          <img src="imgs/author.jpg" alt="author" />
+                        </div>
+                        <div class="author-text">
+                          <p>Conduct by:</p>
+                          <h5>James Well</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="single_course">
+                    <img src="imgs/course.jpg" alt="course" />
+                    <div class="single-course-text">
+                      <div class="course-header">
+                        <a href="#" class="cat-btn">Web Development</a>
+                        <h4>$130.00</h4>
+                      </div>
+                      <div class="course-info">
+                        <a href="#">
+                          <h3>Web Development</h3>
+                        </a>
+                        <p>
+                          Which whose darkness saying were life unto fish
+                          wherein all fish of together called
+                        </p>
+                      </div>
+                      <div class="author-info">
+                        <div class="author-img">
+                          <img src="imgs/author.jpg" alt="author" />
+                        </div>
+                        <div class="author-text">
+                          <p>Conduct by:</p>
+                          <h5>James Well</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-3 col-lg-3">
+              <div class="single-footer-caption">
+                <div class="footer-logo">
+                  <a href="index.html">
+                    <img src="imgs/logo.jpeg" alt="logo" />
+                  </a>
+                </div>
+                <div class="footer-title">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quia cum nemo quo sint aliquam natus blanditiis, dolorem
+                    veritatis corrupti doloribus totam, eos beatae rerum
+                    corporis architecto id. Deleniti, assumenda. Quas.
+                  </p>
+                </div>
+                <div class="footer-social">
+                  <a href="#">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-3">
+              <div class="single-footer-caption">
+                <div class="title">
+                  <h4>Useful Links</h4>
+                  <ul class="p-0">
+                    <li>
+                      <a href="#">Courses</a>
+                    </li>
+                    <li>
+                      <a href="#">Events</a>
+                    </li>
+                    <li>
+                      <a href="#">News</a>
+                    </li>
+                    <li>
+                      <a href="#">Teachers</a>
+                    </li>
+                    <li>
+                      <a href="#">Links</a>
+                    </li>
+                    <li>
+                      <a href="#">FAQ</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-3">
+              <div class="single-footer-caption">
+                <div class="title">
+                  <h4>Quick menu</h4>
+                  <ul class="p-0">
+                    <li>
+                      <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                      <a href="about.html">About us</a>
+                    </li>
+                    <li>
+                      <a href="about.html#tesimonials">Testimonials</a>
+                    </li>
+                    <li>
+                      <a href="#">Services</a>
+                    </li>
+                    <li>
+                      <a href="contact-us.html">Contact</a>
+                    </li>
+                    <li>
+                      <a href="#">Facts</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-3">
+              <div class="single-footer-caption">
+                <div class="title">
+                  <h4>Contact Us</h4>
+                  <ul class="p-0 contact-info">
+                    <li>
+                      <p>
+                        <span>Address:</span>
+                        Hath of it fly signs bear be one blessed after
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        <span>Phone:</span>
+                        +(20) 1234567890
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        <span>Email:</span>
+                        Example@domain.com
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="copyright">
+                  <p>
+                    Copyright ©2024 All rights reserved | This website is made
+                    with <span><i class="fa-solid fa-heart"></i></span> by
+                    <a href="#">Alx Team City</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/about.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
