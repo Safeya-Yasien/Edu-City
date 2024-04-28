@@ -1,0 +1,101 @@
+body {
+  background-color: #222 !important;
+}
+.register {
+  position: absolute;
+  width: 400px;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-radius: 4px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 9);
+  background-color: var(--white-color);
+}
+
+.register .register-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.register h1 {
+  font-size: 2em;
+  color: var(--main-color);
+  text-transform: uppercase;
+}
+
+.register .form-group {
+  position: relative;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+.register .form-group input {
+  width: 100%;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #999;
+  padding: 6px 30px;
+  font-family: Poppins;
+  box-sizing: border-box;
+  transition: 0.4s;
+  font-family: inherit;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 1px solid #222;
+}
+
+input:focus::placeholder {
+  color: #000;
+}
+
+.register .form-group svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+}
+
+.register .form-group input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+}
+
+.register .form-group label {
+  font-size: 14px;
+}
+
+.register .form-group label a {
+  color: #000;
+}
+
+.register .form-button .form-submit {
+  padding: 10px;
+  background: var(--main-color);
+  color: var(--white-color);
+  font-weight: 600;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.register .have-acount {
+  margin-top: -50px;
+  color: #999;
+  text-align: center;
+  font-size: 14px;
+}
+
+.register .have-acount a {
+  text-decoration: none;
+  color: var(--main-color);
+}

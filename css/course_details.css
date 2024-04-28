@@ -1,0 +1,307 @@
+.course-details {
+  padding: 100px 0 50px;
+}
+
+.course-details .course-details-left .main-img img {
+  max-width: 100%;
+}
+
+.course-details .course-details-left .content-wrapper .title {
+  color: var(--dark-blue);
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.course-details .course-details-left .content-wrapper .content {
+  color: var(--paragraph-color);
+  font-size: 15px;
+}
+
+.course-details .course-details-left .content-wrapper .course-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.course-details
+  .course-details-left
+  .content-wrapper
+  .course-list
+  li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.course-details .course-details-left .content-wrapper .course-list li p {
+  margin-bottom: 0;
+}
+
+.course-details
+  .course-details-left
+  .content-wrapper
+  .course-list
+  li
+  .view-btn {
+  text-decoration: none;
+  border: 1px solid #e5f4fa;
+  border-radius: 50px;
+  padding: 5px 15px;
+  color: var(--black-color);
+  transition: 0.4s all ease-in-out;
+}
+
+.course-details
+  .course-details-left
+  .content-wrapper
+  .course-list
+  li
+  .view-btn:hover {
+  color: var(--white-color);
+  background: linear-gradient(to right, #d95b14, #133e5a);
+}
+
+.course-details .course-details-left .content-wrapper .instructor-info {
+  border: 1px solid #e5f4fa;
+  padding: 30px;
+}
+.course-details
+  .course-details-left
+  .content-wrapper
+  .instructor-info
+  .alignleft {
+  margin-right: 20px;
+}
+
+.course-details
+  .course-details-left
+  .content-wrapper
+  .instructor-info
+  .alignleft
+  img {
+  width: 100%;
+  width: 80px;
+}
+
+.course-details .course-details-left .content-wrapper .instructor-info {
+  display: flex;
+}
+
+.course-details
+  .course-details-left
+  .content-wrapper
+  .instructor-info
+  .description
+  h3 {
+  font-size: 17px;
+}
+
+.course-details
+  .course-details-left
+  .content-wrapper
+  .instructor-info
+  .description
+  h4 {
+  color: var(--paragraph-color);
+  font-size: 15px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.course-details
+  .course-details-left
+  .content-wrapper
+  .instructor-info
+  .description
+  p {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.course-details
+  .course-details-left
+  .content-wrapper
+  .instructor-info
+  .description
+  .view-profile {
+  text-decoration: none;
+  color: var(--black-color);
+  display: block;
+  border: 1px solid;
+  width: fit-content;
+  font-size: 14px;
+  padding: 8px;
+  transition: 0.4s all;
+}
+
+.course-details
+  .course-details-left
+  .content-wrapper
+  .instructor-info
+  .description
+  .view-profile:hover {
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
+
+@media (max-width: 991px) {
+  .course-details .course-details-right {
+    margin-top: 20px;
+  }
+}
+
+.course-details .course-details-right .sidebar-top {
+  border: 1px solid #e5f4fa;
+  padding: 30px;
+}
+
+.course-details .course-details-right .sidebar-top ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.course-details .course-details-right .sidebar-top ul li p:first-child {
+  color: var(--paragraph-color);
+}
+
+.course-details .course-details-right .sidebar-top .enroll-btn {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  color: var(--white-color);
+  font-weight: bold;
+  padding: 8px 15px;
+  width: fit-content;
+  margin: 0 auto;
+  background: linear-gradient(to right, #d95b14, #133e5a);
+  border-radius: 50px;
+  font-size: 14px;
+  transition: 0.5s all ease-in-out;
+}
+
+.course-details .course-details-right .sidebar-top .enroll-btn:hover {
+  background: linear-gradient(to right, #133e5a, #d95b14);
+}
+
+@media (max-width: 991px) {
+  .course-details .course-details-right .comments {
+    margin-top: 20px;
+  }
+}
+
+.course-details .course-details-right .comments .single-comment {
+  display: flex;
+  padding: 30px;
+}
+
+.course-details
+  .course-details-right
+  .comments
+  .single-comment:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.course-details .course-details-right .comments .single-comment .thumb {
+  margin-right: 20px;
+}
+
+.course-details .course-details-right .comments .single-comment .thumb img {
+  width: 50px;
+}
+.course-details .course-details-right .comments .single-comment .desc h5 {
+  font-size: 16px;
+  color: var(--dark-blue);
+  margin-bottom: 0;
+}
+
+.course-details
+  .course-details-right
+  .comments
+  .single-comment
+  .desc
+  .rating
+  svg {
+  font-size: 10px;
+  color: var(--main-color);
+}
+
+.course-details .course-details-right .comments .single-comment .desc p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: var(--paragraph-color);
+}
+
+.course-details .course-details-right .review {
+  padding: 0 30px;
+}
+
+.course-details .course-details-right .review .title {
+  color: var(--dark-blue);
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.course-details .course-details-right .review .form-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.course-details .course-details-right .review .form-group:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+
+.course-details .course-details-right .review .form-group p,
+.course-details .course-details-right .review .form-group label {
+  margin-bottom: 0;
+  color: var(--paragraph-color);
+  font-size: 14px;
+}
+
+.course-details .course-details-right .review .rating {
+  display: flex;
+  align-items: center;
+}
+
+.course-details .course-details-right .review .rating a {
+  padding: 1px;
+}
+
+.course-details .course-details-right .review .rating svg {
+  font-size: 10px;
+  color: var(--main-color);
+}
+
+.course-details .course-details-right .review .form-group label {
+  white-space: nowrap;
+  width: 110px;
+}
+
+.course-details .course-details-right .review .required {
+  color: var(--main-color);
+}
+
+.course-details .course-details-right .review .form-group .form-control {
+  font-size: 14px;
+}
+
+.course-details .course-details-right .review .form-group .form-control:active,
+.course-details .course-details-right .review .form-group .form-control:focus {
+  box-shadow: none;
+  border-color: var(--main-color);
+  outline: none;
+}
+
+.course-details .course-details-right .review .form-group textarea {
+  height: 100px;
+
+  resize: none;
+}
+
+.course-details .course-details-right .review .submit-review-btn {
+  padding: 8px 15px;
+  background-color: var(--main-color);
+  color: var(--white-color);
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  margin: 30px auto;
+  display: block;
+}

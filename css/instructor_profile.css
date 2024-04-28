@@ -1,0 +1,56 @@
+.profile {
+  padding: 100px 0;
+}
+
+.profile .name h1 {
+  color: var(--dark-blue);
+}
+.profile .name p {
+  color: var(--paragraph-color);
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.profile .title {
+  margin: 40px 0 15px;
+  color: var(--dark-blue);
+}
+.profile .desc p {
+  font-size: 14px;
+  color: var(--paragraph-color);
+}
+
+.profile .instructor-info {
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .profile .instructor-info {
+    margin-top: 20px;
+  }
+}
+.profile .profile-img img {
+  max-width: 200px;
+  border-radius: 50%;
+}
+.profile .profile-info {
+  margin-top: 30px;
+}
+
+.profile .profile-info ul li:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+.profile .profile-info ul li a {
+  text-decoration: none;
+  border: 1px solid #f6f6f6;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 8px 30px;
+  color: var(--black-color);
+  font-weight: bold;
+  transition: 0.4s all ease-in-out;
+}
+.profile .profile-info ul li a:hover {
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
