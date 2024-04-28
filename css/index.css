@@ -90,7 +90,8 @@ a {
 
 /* navbar */
 .header .nav-bar {
-  background-color: var(--white-color);    box-shadow: 0 0 10px;
+  background-color: var(--white-color);
+  box-shadow: 0 0 10px;
 }
 
 .header .nav-bar .logo a {
