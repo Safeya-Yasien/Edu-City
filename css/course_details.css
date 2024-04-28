@@ -41,7 +41,7 @@
   li
   .view-btn {
   text-decoration: none;
-  border: 1px solid #e5f4fa;
+  border: 1px solid var(--border-color);
   border-radius: 50px;
   padding: 5px 15px;
   color: var(--black-color);
@@ -59,7 +59,7 @@
 }
 
 .course-details .course-details-left .content-wrapper .instructor-info {
-  border: 1px solid #e5f4fa;
+  border: 1px solid var(--border-color);
   padding: 30px;
 }
 .course-details
@@ -148,7 +148,7 @@
 }
 
 .course-details .course-details-right .sidebar-top {
-  border: 1px solid #e5f4fa;
+  border: 1px solid var(--border-color);
   padding: 30px;
 }
 
@@ -162,23 +162,39 @@
   color: var(--paragraph-color);
 }
 
-.course-details .course-details-right .sidebar-top .enroll-btn {
+.course-details .course-details-right .sidebar-top .enroll-btn,
+.course-details .course-details-right .sidebar-top .add-wishlist-btn {
   text-decoration: none;
   text-align: center;
   display: block;
-  color: var(--white-color);
   font-weight: bold;
   padding: 8px 15px;
   width: fit-content;
   margin: 0 auto;
-  background: linear-gradient(to right, #d95b14, #133e5a);
   border-radius: 50px;
   font-size: 14px;
   transition: 0.5s all ease-in-out;
+  border: 1px solid var(--border-color);
 }
 
-.course-details .course-details-right .sidebar-top .enroll-btn:hover {
+.course-details .course-details-right .sidebar-top .enroll-btn {
+  color: var(--white-color);
+  background: linear-gradient(to right, #d95b14, #133e5a);
+  margin-bottom: 15px;
+  margin: 20px auto;
+}
+
+.course-details .course-details-right .sidebar-top .add-wishlist-btn {
+  color: var(--black-color);
+}
+
+.course-details .course-details-right .sidebar-top .enroll-btn:hover,
+.course-details .course-details-right .sidebar-top .add-wishlist-btn:hover {
   background: linear-gradient(to right, #133e5a, #d95b14);
+}
+
+.course-details .course-details-right .sidebar-top .add-wishlist-btn:hover {
+  color: var(--white-color);
 }
 
 @media (max-width: 991px) {

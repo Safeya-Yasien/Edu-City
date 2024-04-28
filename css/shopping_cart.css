@@ -1,0 +1,94 @@
+.shopping-cart {
+  padding: 50px 0;
+}
+
+.shopping-cart .row {
+  justify-content: center;
+}
+
+.shopping-cart .courses {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.shopping-cart .courses .title {
+  color: var(--dark-blue);
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.shopping-cart .single_course {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .shopping-cart .single_course {
+    flex-direction: column;
+  }
+}
+
+.shopping-cart .single_course .single_course_img {
+  width: 350px;
+}
+
+@media (max-width: 567px) {
+  .shopping-cart .single_course .single_course_img {
+    width: 100%;
+  }
+}
+
+.shopping-cart .single_course .single-course-text {
+  padding: 10px;
+  width: 100%;
+}
+
+.shopping-cart .single_course .single-course-text .course-header {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .single_course .course-header {
+    flex-direction: row;
+  }
+}
+
+.shopping-cart .single_course .course-info p {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}
+.shopping-cart .single_course .course-info .remove-course {
+  text-align: right;
+}
+
+.shopping-cart .single_course .course-info .remove-course .remove-course-btn {
+  margin-bottom: 0;
+  font-weight: bold;
+  color: #d88d55;
+  transition: var(--main-transition);
+}
+
+.shopping-cart
+  .single_course
+  .course-info
+  .remove-course
+  .remove-course-btn:hover {
+  color: var(--main-color);
+}
+
+.shopping-cart .total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shopping-cart .total .total-price{
+  font-weight: bold;
+}

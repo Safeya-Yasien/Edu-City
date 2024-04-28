@@ -10,7 +10,8 @@
   --main-color: #d95b14;
   --dark-blue: #133e5a;
   --paragraph-color: #888888;
-  --main-transition: 0.3s;
+  --border-color: #e5f4fa;
+  --main-transition: 0.4s;
 }
 
 body {
@@ -150,7 +151,7 @@ a {
   }
 }
 
-.header .nav-bar .icons > div:not(:last-child) {
+.header .nav-bar .icons > div:not(:last-of-type) {
   margin-right: 15px;
 }
 
@@ -173,7 +174,7 @@ a {
   position: absolute;
   width: 100%;
   left: 0;
-  bottom: 0;
+  bottom: -35px;
 }
 
 .header-search-container.active {
@@ -274,7 +275,7 @@ a {
 }
 
 .landing-page .text {
-  padding: 150px 0;
+  padding: 200px 0;
   position: relative;
   z-index: 2;
 }
@@ -335,6 +336,9 @@ a {
 
 .single_course {
   border: 1px solid #f6f6f6;
+}
+
+.single_course:not(:last-of-type) {
   margin-bottom: 15px;
 }
 
