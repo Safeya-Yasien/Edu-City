@@ -1,0 +1,52 @@
+.payment {
+  padding: 100px 0;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.payment .accordion .accordion-item {
+  border: none;
+  box-shadow: 0 0 8px var(--border-color);
+}
+
+.payment .accordion .accordion-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.payment .accordion .accordion-button {
+  border: none;
+  box-shadow: none;
+  outline: none;
+  background-color: var(--white-color);
+  border-bottom: 1px solid var(--border-color);
+  color: var(--dark-blue);
+  font-weight: bold;
+}
+
+.payment .accordion .accordion-item .form-group {
+  margin-bottom: 20px;
+}
+
+.payment .accordion .accordion-item .form-control {
+  font-size: 14px;
+}
+
+.payment .accordion .accordion-item .form-control:active,
+.payment .accordion .accordion-item .form-control:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.payment .accordion .credit-submit,
+.payment .accordion .pay-pal-submit {
+  border-color: var(--main-color);
+  color: var(--main-color);
+  transition: var(--main-transition);
+}
+.payment .accordion .credit-submit:hover,
+.payment .accordion .pay-pal-submit:hover {
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
