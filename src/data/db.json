@@ -1,0 +1,103 @@
+{
+  "skills": [
+    {
+      "id": "type1",
+      "name": "skill",
+      "value": "beginner",
+      "label": "Beginner",
+      "checked": true
+    },
+    {
+      "id": "type2",
+      "name": "skill",
+      "value": "intermediate",
+      "label": "Intermediate"
+    },
+    { "id": "type3", "name": "skill", "value": "expert", "label": "Expert" }
+  ],
+  "prices": [
+    { "id": "type4", "name": "price", "value": "free", "label": "Free" },
+    { "id": "type5", "name": "price", "value": "paid", "label": "Paid" }
+  ],
+  "durations": [
+    { "id": "type6", "name": "duration", "value": "five", "label": "5+ hours" },
+    { "id": "type7", "name": "duration", "value": "ten", "label": "10+ hours" },
+    {
+      "id": "type8",
+      "name": "duration",
+      "value": "fifteen",
+      "label": "15+ hours"
+    }
+  ],
+  "courseTypes": [
+    {
+      "id": "check1",
+      "name": "course",
+      "value": "backend",
+      "label": "Backend"
+    },
+    { "id": "check2", "name": "course", "value": "css", "label": "CSS" },
+    {
+      "id": "check3",
+      "name": "course",
+      "value": "frontend",
+      "label": "Frontend"
+    },
+    {
+      "id": "check4",
+      "name": "course",
+      "value": "general",
+      "label": "General"
+    },
+    {
+      "id": "check5",
+      "name": "course",
+      "value": "photography",
+      "label": "Photography"
+    },
+    {
+      "id": "check6",
+      "name": "course",
+      "value": "technology",
+      "label": "Technology"
+    }
+  ],
+  "instructors": [
+    {
+      "id": "check8",
+      "name": "instructor",
+      "value": "stuard",
+      "label": "Stuard"
+    },
+    {
+      "id": "check9",
+      "name": "instructor",
+      "value": "benjamin",
+      "label": "Benjamin"
+    },
+    {
+      "id": "check10",
+      "name": "instructor",
+      "value": "mickel",
+      "label": "Mickel"
+    },
+    {
+      "id": "check11",
+      "name": "instructor",
+      "value": "johnson",
+      "label": "Johnson"
+    },
+    {
+      "id": "check12",
+      "name": "instructor",
+      "value": "elijabeth",
+      "label": "Elijabeth"
+    },
+    {
+      "id": "check13",
+      "name": "instructor",
+      "value": "rebeka",
+      "label": "Rebeka"
+    }
+  ]
+}
