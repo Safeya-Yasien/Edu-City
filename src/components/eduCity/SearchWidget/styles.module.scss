@@ -1,0 +1,33 @@
+@import "../../../styles/variables";
+
+.searchWidget {
+  border-radius: 10px;
+  .searchWrap {
+    .searchInput {
+      border: 1px solid $border-color;
+      color: #444;
+      padding: 12px 17px;
+      width: 100%;
+      border-radius: 5px;
+      position: relative;
+      outline: none;
+    }
+    button {
+      background: transparent;
+      border: none;
+      color: #505050;
+      padding: 11px 15px 12px;
+      position: absolute;
+      display: block;
+      right: 0;
+      top: 0;
+      z-index: 10;
+      font-size: 20px;
+      border-radius: 0 5px 5px;
+      transition: $links-hover-transition;
+      &:hover {
+        color: $midnight-blue-hover;
+      }
+    }
+  }
+}
