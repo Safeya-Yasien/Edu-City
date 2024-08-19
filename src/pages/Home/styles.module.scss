@@ -1,0 +1,27 @@
+@import "../../styles/variables";
+
+.heroSection {
+  .customButton {
+    transition: $links-hover-transition;
+    border-radius: 0;
+    padding: 10px 15px;
+    border: none;
+    &:nth-child(1) {
+      // background-color: $orange-color;
+      background-color: $midnight-blue;
+      color: $white-color;
+      &:active {
+        background-color: $midnight-blue;
+        color: $white-color;
+      }
+    }
+    &:nth-child(2) {
+      background-color: transparent;
+      color: initial;
+      &:hover {
+        background-color: $midnight-blue;
+        color: $white-color;
+      }
+    }
+  }
+}
