@@ -1,0 +1,31 @@
+@import "./variables";
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: initial;
+}
+ul {
+  list-style: none;padding: 0;margin: 0;
+}
+body {
+  font-family: "Rubik", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 26px;
+}
+.widgetCard {
+  background: $white-color;
+  padding: 40px 30px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.07);
+}

@@ -1,0 +1,33 @@
+@import "../variables";
+
+.authBox {
+  position: relative;
+  max-width: 970px;
+  margin: 0 auto;
+  padding: 45px 40px 35px;
+  background: #f9f8f8;
+  .submitBtn {
+    padding: 10px 50px;
+    color: $white-color;
+    background: $midnight-blue;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    transition: $links-hover-transition;
+    margin-bottom: 20px;
+    &:hover {
+      background-color: $midnight-blue-hover;
+    }
+  }
+  .users {
+    a {
+      color: $dark-terracotta-color;
+      transition: $links-hover-transition;
+      font-weight: bold;
+      &:hover {
+        color: $midnight-blue;
+      }
+    }
+  }
+}
