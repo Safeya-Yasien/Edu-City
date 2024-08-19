@@ -1,0 +1,23 @@
+@import "../../../styles/variables";
+
+.widgetTitle {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 12px;
+  font-family: "Nunito", sans-serif;
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: 0;
+    width: 50px;
+    height: 2px;
+    background-color: $midnight-blue-hover;
+    z-index: 1;
+    margin-left: 0;
+  }
+}
