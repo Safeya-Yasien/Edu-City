@@ -1,0 +1,36 @@
+@import "../../../styles/variables";
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  .topHeader {
+    background-color: $midnight-blue;
+    color: $white-color;
+    .topHeaderContent {
+      @media (max-width: 767px) {
+        flex-direction: column;
+      }
+      .topHeaderAuth {
+        .nav {
+          .navLink {
+            color: inherit;
+            transition: $links-hover-transition;
+            &:hover {
+              color: #e5f4fa;
+            }
+          }
+        }
+      }
+    }
+  }
+  .navbar {
+    background-color: $white-color;
+    box-shadow: 0 0 10px;
+    .cartIcon {
+      background-color: $white-color;
+      border: none;
+      outline: none;
+    }
+  }
+}
